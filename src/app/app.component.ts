@@ -14,6 +14,6 @@ export class AppComponent implements OnInit {
 
   showDailog(actionType: string) {
     this.userApiService.actionType = actionType;
-    this.router.navigateByUrl('/createOrUpdate'); //:4200/
+    this.router.navigateByUrl('/createOrUpdate');
   }
 }
