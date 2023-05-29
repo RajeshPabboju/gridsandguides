@@ -1,0 +1,26 @@
+<!-- The Modal -->
+
+<div class="modal" id="viewModel">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">User Details</h4>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          (click)="closeDailog()"
+        >
+          &times;
+        </button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div>Your ID: {{ userDetails.id }}</div>
+        <div>Your Name is: {{ userDetails.name }}</div>
+      </div>
+    </div>
+  </div>
+</div>

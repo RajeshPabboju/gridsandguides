@@ -1,0 +1,7 @@
+{
+    "/api/*": {
+        "target": "https://my-app-07vh.onrender.com/",
+        "secure": false,
+        "logLevel": "debug"
+    }
+} 
